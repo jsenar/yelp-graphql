@@ -5,11 +5,11 @@ const request = require('request-promise');
 const baseUrl = 'https://api.yelp.com/v3/graphql';
 
 class YelpGraphQL {
-  constructor(apiKey) {
+  constructor({apiKey}) {
     this.apiKey = apiKey;
   }
 
-  query(locale, {query, variables}) {
+  query({locale, query, variables}) {
 
     const body = {
         query,
