@@ -1,5 +1,6 @@
 # yelp-graphql
-Simple wrapper for Yelp's GraphQL API.
+Simple wrapper for Yelp's GraphQL API, using request-promise.
+
 
 # Basic Setup
 ```javascript
